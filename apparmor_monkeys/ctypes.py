@@ -8,7 +8,8 @@ _find_library = ctypes.util.find_library
 libraries = {
     "c": "libc.so.6",
     "uuid": "libuuid.so.1",
-    "gmp": "libgmp.so.10"
+    "gmp": "libgmp.so.10",
+    "crypto": "libcrypto.so.1.1"
 }
 
 
